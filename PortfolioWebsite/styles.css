@@ -1,65 +1,117 @@
-/* styles.css */
+
+
 
 /* General reset for margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and borders are included in total width/height */
+    box-sizing: border-box;
 }
 
 /* Body settings for font, line height, text color, and background color */
 body {
-    font-family: Arial, sans-serif; /* Font style */
-    line-height: 1.6em; /* Line spacing */
-    color: #333; /* Text color */
-    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    color: #f4f4f4; /* Light text color for contrast on black background */
+    background-color: #000000; /* Black background for the entire page */
 }
 
-/* Main wrapper styles for centering and setting width */
+/* Main wrapper styles to center content and apply width restrictions */
 #wrapper {
-    width: 80%; /* Set width of the wrapper to 80% of the viewport */
-    max-width: 800px; /* Limit the max width to 800px */
-    margin: 0 auto; /* Center the wrapper on the page */
-    padding: 20px; /* Padding around content inside the wrapper */
-    background: #ffffff; /* White background color */
-    border-radius: 8px; /* Slight rounded corners */
+    width: 80%; /* Wrapper width as a percentage for responsiveness */
+    max-width: 800px; /* Maximum width of 800px */
+    margin: 0 auto; /* Center the wrapper */
+    padding: 20px; /* Padding inside the wrapper */
+    background-color: #1a1a1a; /* Dark gray background for a subtle contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
 }
 
 /* Header section styling */
 header {
     text-align: center; /* Center-align text */
     padding: 10px 0; /* Vertical padding */
-    border-bottom: 2px solid #ddd; /* Bottom border for separation */
+    border-bottom: 2px solid #333333; /* Bottom border in dark gray for separation */
 }
 
-/* Styling for the navigation bar */
+/* Header text color adjustments */
+header h1 {
+    color: #ffffff; /* White text for the main header */
+}
+
+header p {
+    color: #b3b3b3; /* Light gray for subtitle or description */
+}
+
+/* Navigation styling */
 nav ul {
     list-style: none; /* Remove default bullet points */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center-align navigation links */
-    margin: 15px 0; /* Vertical space around the navigation */
+    display: flex; /* Flex layout for horizontal menu */
+    justify-content: center; /* Center-align navigation items */
+    margin: 15px 0; /* Space above and below the navigation */
 }
 
-/* Styling for each navigation item */
+/* Individual navigation item styling */
 nav ul li {
-    margin: 0 15px; /* Spacing between navigation items */
+    margin: 0 15px; /* Horizontal spacing between navigation items */
 }
 
 /* Navigation link styles */
 nav ul li a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Dark text color for links */
+    color: #ffffff; /* White text for navigation links */
+    transition: color 0.3s ease; /* Smooth color transition for hover */
 }
 
-/* Main content section styling */
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover for a golden effect */
+}
+
+/* Main content area styling */
 main {
-    margin: 20px 0; /* Vertical space above and below the main content */
+    margin: 20px 0; /* Space above and below main content */
 }
 
-/* Footer section styling */
+/* Section heading styling */
+main h2 {
+    color: #ffffff; /* White headings for readability */
+    border-bottom: 2px solid #333333; /* Bottom border in dark gray */
+    padding-bottom: 5px; /* Padding below heading text */
+}
+
+/* Text in the main section */
+main p {
+    color: #cccccc; /* Light gray for readability against the dark background */
+}
+
+/* Unordered and ordered list styles */
+ul, ol {
+    color: #cccccc; /* Light gray text for list items */
+    margin-left: 20px; /* Indentation for list items */
+}
+
+/* Footer styling */
 footer {
-    text-align: center; /* Center-align text in the footer */
+    text-align: center; /* Center-align text in footer */
     padding: 10px 0; /* Vertical padding */
-    border-top: 2px solid #ddd; /* Top border for separation */
-    margin-top: 20px; /* Space above the footer */
+    border-top: 2px solid #333333; /* Top border for separation */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Footer link styling */
+footer a {
+    color: #ffcc00; /* Golden color for footer links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    color: #ffffff; /* White on hover for footer links */
+}
+
+/* Image styling */
+img {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Space below images */
 }
