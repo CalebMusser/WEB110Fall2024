@@ -1,57 +1,65 @@
 /* styles.css */
-/* Author: Your Name, Date: Project - Personal Portfolio */
 
+/* General reset for margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Ensures padding and borders are included in total width/height */
 }
 
+/* Body settings for font, line height, text color, and background color */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6em;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Font style */
+    line-height: 1.6em; /* Line spacing */
+    color: #333; /* Text color */
+    background-color: #f4f4f4; /* Light gray background */
 }
 
+/* Main wrapper styles for centering and setting width */
 #wrapper {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 8px;
+    width: 80%; /* Set width of the wrapper to 80% of the viewport */
+    max-width: 800px; /* Limit the max width to 800px */
+    margin: 0 auto; /* Center the wrapper on the page */
+    padding: 20px; /* Padding around content inside the wrapper */
+    background: #ffffff; /* White background color */
+    border-radius: 8px; /* Slight rounded corners */
 }
 
+/* Header section styling */
 header {
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 2px solid #ddd;
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Vertical padding */
+    border-bottom: 2px solid #ddd; /* Bottom border for separation */
 }
 
+/* Styling for the navigation bar */
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center-align navigation links */
+    margin: 15px 0; /* Vertical space around the navigation */
 }
 
+/* Styling for each navigation item */
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* Spacing between navigation items */
 }
 
+/* Navigation link styles */
 nav ul li a {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark text color for links */
 }
 
+/* Main content section styling */
 main {
-    margin: 20px 0;
+    margin: 20px 0; /* Vertical space above and below the main content */
 }
 
+/* Footer section styling */
 footer {
-    text-align: center;
-    padding: 10px 0;
-    border-top: 2px solid #ddd;
-    margin-top: 20px;
+    text-align: center; /* Center-align text in the footer */
+    padding: 10px 0; /* Vertical padding */
+    border-top: 2px solid #ddd; /* Top border for separation */
+    margin-top: 20px; /* Space above the footer */
 }
