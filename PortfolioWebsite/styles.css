@@ -107,7 +107,7 @@ footer a:hover {
 
 /* Image styling */
 img {
-    width: 25%; /* Full width for responsiveness */
+    width: 100%; /* Full width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Rounded corners for images */
     margin-bottom: 15px; /* Space below images */
