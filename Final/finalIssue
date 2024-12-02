@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for responsive design and linking CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews - Issue</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 
+        Name: [Your Name]
+        Date: [Today's Date]
+        File: final2.html
+        Purpose: Issue Page of Game Reviews Website 
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Header repeats across all pages -->
+        <header>
+            <h1>Game Reviews</h1>
+        </header>
+        
+        <!-- Navigation bar for internal linking -->
+        <nav>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Issue</a></li>
+                <li><a href="final3.html">Form</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content section -->
+        <main>
+            <section>
+                <!-- Explains the importance of reviews -->
+                <h2>Why Game Reviews Matter</h2>
+                <p>Game reviews are an essential part of the gaming ecosystem. They guide players to make informed decisions, highlight the strengths and weaknesses of games, and foster discussions about game design.</p>
+                
+                <!-- Ordered list to rank game features -->
+                <ol>
+                    <li>Graphics</li>
+                    <li>Gameplay</li>
+                    <li>Storyline</li>
+                    <li>Replayability</li>
+                    <li>Community Engagement</li>
+                </ol>
+                <img src="gameplay.jpg" alt="Gameplay Example" class="responsive">
+            </section>
+        </main>
+
+        <!-- Footer repeats navigation -->
+        <footer>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Issue</a></li>
+                <li><a href="final3.html">Form</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
