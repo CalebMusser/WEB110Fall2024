@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews - Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 
+        Name: [Your Name]
+        Date: [Today's Date]
+        File: final3.html
+        Purpose: Form Page of Game Reviews Website 
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Game Reviews</h1>
+        </header>
+        <nav>
+            <!-- Navigation bar linking to all pages -->
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Issue</a></li>
+                <li><a href="final3.html">Form</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Submit Your Review</h2>
+                <!-- Form with various input types -->
+                <form action="#" method="post">
+                    <!-- Text inputs -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="favorite-game">Favorite Game:</label>
+                    <input type="text" id="favorite-game" name="favorite-game">
+                    <br>
+
+                    <!-- Checkboxes for multiple options -->
+                    <label>Genres:</label>
+                    <input type="checkbox" name="genre" value="Action"> Action
+                    <input type="checkbox" name="genre" value="RPG"> RPG
+                    <input type="checkbox" name="genre" value="Strategy"> Strategy
+                    <br>
+
+                    <!-- Radio buttons for single choice -->
+                    <label>Rate the Game:</label>
+                    <input type="radio" name="rating" value="1"> 1 Star
+                    <input type="radio" name="rating" value="2"> 2 Stars
+                    <input type="radio" name="rating" value="5"> 5 Stars
+                    <br>
+
+                    <!-- Date input -->
+                    <label for="date">Last Played:</label>
+                    <input type="date" id="date" name="date">
+                    <br>
+
+                    <!-- Textarea for longer input -->
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                    <br>
+
+                    <!-- Dropdown for selection -->
+                    <label for="platform">Favorite Platform:</label>
+                    <select id="platform" name="platform">
+                        <option value="pc">PC</option>
+                        <option value="playstation">PlayStation</option>
+                        <option value="xbox">Xbox</option>
+                    </select>
+                    <br>
+
+                    <!-- Submit and reset buttons -->
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <!-- Repeated navigation links -->
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Issue</a></li>
+                <li><a href="final3.html">Form</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
