@@ -88,6 +88,14 @@ ul li a: hover {
     color: #ff0000; /* Brighter red on hover */
 }
 
+/* Image Styling */
+img {
+    width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners for images */
+    margin-bottom: 20px; /* Adds space below each image */
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -116,4 +124,7 @@ footer ul li a {
 footer ul li a: hover {
     color: #ff0000;
 }
+
+
+
 
