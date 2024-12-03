@@ -16,7 +16,7 @@ body {
 
 /* Wrapper */
 #wrapper {
-    width: 80%; /* Liquid layout: 80% of the screen width */
+    width: 50%; /* Liquid layout: 80% of the screen width */
     max-width: 1200px; /* Limit the maximum width for larger screens */
     min-width: 300px; /* Prevent it from becoming too narrow on small screens */
     margin: 0 auto; /* Center the wrapper */
