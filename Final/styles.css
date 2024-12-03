@@ -14,15 +14,18 @@ body {
     padding: 0;
 }
 
-/* Wrapper styling */
+/* Wrapper */
 #wrapper {
-    width: 80%;
-    margin: 0 auto;
+    width: 80%; /* Liquid layout: 80% of the screen width */
+    max-width: 1200px; /* Limit the maximum width for larger screens */
+    min-width: 300px; /* Prevent it from becoming too narrow on small screens */
+    margin: 0 auto; /* Center the wrapper */
     padding: 20px;
     border: 1px solid #ff0000; /* Red border */
-    background-color: #1a1a1a; /* Dark gray for content area */
+    background-color: #1a1a1a; /* Dark gray for the content area */
     border-radius: 10px;
 }
+
 
 /* Header */
 header {
